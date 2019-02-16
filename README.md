@@ -24,11 +24,13 @@ if $|x| > |y|​$,
 
 if $|x| < |y|$,
 
-​	$O(|y|)$
+​	$O(|y|)​$
 
-if $|x| == |y|$,
+if $|x| == |y|​$,
 
-​	$O(|x|)$ **or** $O(|y|)$
+​	$O(|x|)​$ **or** $O(|y|)​$
+
+
 
 
 
@@ -56,15 +58,23 @@ Type following on your bash and compare the results.
 
 If max(N, P, U) == N,
 
-​	$O(N)​$
+​	$O(N)$
 
 If max(N, P, U) == P,
 
-​	$O(P\log P)​$
+​	$O(P\log P)$
 
 (This is because `Counter#most_common` is based on heap)
 
 If max(N, P, U) == U,
 
-​	$O(U)​$	
+​	$O(U)$
+
+
+
+
+
+### Q3. 
+
+
 
